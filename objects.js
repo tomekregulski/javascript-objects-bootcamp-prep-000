@@ -3,7 +3,8 @@ var playlist = new Object();
 var playlist = {dagar: "yaman"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  return Object.assign({}, playlist, { [artistName]: songTitle });
+  playlist[artistName] = songTitle;
+  return playList
 }
 
 function removeFromPlaylist(playlist, artistName) {
