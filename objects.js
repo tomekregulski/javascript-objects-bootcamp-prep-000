@@ -1,5 +1,5 @@
 var playlist = {}
-var playlist = new Object{};
+var playlist = new Object();
 var playlist = {dagar: "yaman"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
